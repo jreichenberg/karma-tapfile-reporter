@@ -1,0 +1,11 @@
+{
+    "name": "karma-tapfile-reporter",
+    "author": "Jeffrey Reichenberg",
+    "description": "Based heavily on karma-junit-reporter, but outputs TAP (test anything protocol)",
+    "version": "1.0.0",
+    "private": false,
+    "homepage": "",
+    "devDependencies": {
+
+    }
+}
