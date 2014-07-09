@@ -1,4 +1,4 @@
-karma-tap-reporter
+karma-tapfile-reporter
 ==================
 
 Based heavily on karma-junit-reporter, but outputs TAP (test anything protocol)
