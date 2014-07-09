@@ -10,7 +10,7 @@ var fs = require('fs');
 
 var TapFileReporter = function(baseReporterDecorator, config, logger, helper, formatError) {
     var log = logger.create('reporter.tap');
-    var reporterConfig = config.tapReporter || Object.create(null);
+    var reporterConfig = config.tapFileReporter || Object.create(null);
     var pkgName = reporterConfig.suite || '';
     var outputFile = helper.normalizeWinPath(path.resolve(config.basePath, reporterConfig.outputFile
         || 'report.tap'));
