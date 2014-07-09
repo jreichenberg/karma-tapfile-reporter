@@ -4,7 +4,7 @@
     "description": "Based heavily on karma-junit-reporter, but outputs TAP (test anything protocol)",
     "version": "0.0.1",
     "private": false,
-    "homepage": "",
+    "homepage": "https://github.com/jreichenberg/karma-tapfile-reporter",
     "devDependencies": {
 
     }
