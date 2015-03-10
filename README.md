@@ -8,7 +8,7 @@ Configure in karma.config.js as:
 ```
         reporters: ['mocha', 'tapFile'],
 
-        tapFileReporter: {
+        tapReporter: {
             outputFile: 'test/unit/report.tap',
             suite: ''
         }
